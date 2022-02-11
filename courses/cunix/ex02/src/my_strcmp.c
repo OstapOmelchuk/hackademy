@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-unsigned int my_strcmp(char *str1, char *str2) {
+int my_strcmp(char *str1, char *str2) {
     int diff = 0; 
     if(str1 != str2) {
         int min_length = strlen(str1);
